@@ -14,7 +14,7 @@ Installation
 
 1. Add to composer.json into "require" section
 ```
-"sunra/jquery-set-symfony2-bundle": "dev-master"
+"sunra/tw-bootstrap-bundle": "dev-master"
 ```
 and run 
 ```
@@ -23,7 +23,7 @@ composer.phar update
 
 1. Add to app/AppKernel.php
 ```
-new Sunra\jQuerySetBundle\SunrajQuerySetBundle()
+new Sunra\TwBootstrapBundle\SunraTwBootstrapBundle()
 ```
 
 2. run :
@@ -34,6 +34,11 @@ app/console assets:install
 
 Usage
 -----
-```js
-<script src="{{ asset('bundles/sunrajqueryset/js/jquery/jquery-1.8.3.min.js') }}"></script>
+```
+...
+<link href="{{ asset('bundles/sunratwbootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+...
+<script src="{{ asset('bundles/sunratwbootstrap/js/bootstrap.min.js') }}"></script>
+...
+
 ```

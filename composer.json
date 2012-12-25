@@ -1,9 +1,9 @@
 {
-    "name": "sunra/jquery-set-symfony2-bundle",
-    "description": "jQuery and set of plugins for Symfony2. Bundled & composer packaged",
+    "name": "sunra/tw-bootstrap-bundle",
+    "description": "Twitter Bootstrap for Symfony2. Bundled & composer packaged",
     "type": "symfony-bundle",    
-    "keywords": ["jQuery", "symfony", "plugin", "timer"],
-    "homepage": "https://github.com/sunra/jquery-set-symfony2-bundle",
+    "keywords": ["Bootstrap", "Twitter", "symfony"],
+    "homepage": "https://github.com/sunra/tw-bootstrap-bundle",
     "license": "MIT",
     "authors": [
         {
@@ -13,9 +13,10 @@
     ],
     "require": {        
         "php": ">=5.3.2",
-        "symfony/framework-bundle": "2.*"        
+        "symfony/framework-bundle": "2.*",
+        "sunra/jquery-set-symfony2-bundle": "dev-master"       
     },
     "autoload": {
-        "psr-0": { "Sunra\\jQuerySetBundle": "" }
+        "psr-0": { "Sunra\\TwBootstrapBundle": "" }
     }
 }

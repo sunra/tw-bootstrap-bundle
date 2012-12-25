@@ -1,20 +1,11 @@
-jQuery and plugins set for Symfony2
+Twitter Bootstrap integration to Symfony2 projects
 ==================================
+Version 2.2.2
+
 
 Symfony2 bundled & in composer packaged
 
-https://github.com/sunra/jquery-set-symfony2-bundle
-
-
-Contents
---------
-jQuery 1.8.3
-
-
-Plugins
--------
-
-- jQuery.Timers http://jquery.offput.ca/timers/
+https://github.com/sunra/tw-bootstrap-bundle
 
 
 

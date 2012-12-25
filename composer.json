@@ -1,0 +1,21 @@
+{
+    "name": "sunra/jquery-set-symfony2-bundle",
+    "description": "jQuery and set of plugins for Symfony2. Bundled & composer packaged",
+    "type": "symfony-bundle",    
+    "keywords": ["jQuery", "symfony", "plugin", "timer"],
+    "homepage": "https://github.com/sunra/jquery-set-symfony2-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sunra",
+            "email": "sunra@yandex.ru"            
+        }        
+    ],
+    "require": {        
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.*"        
+    },
+    "autoload": {
+        "psr-0": { "Sunra\\jQuerySetBundle": "" }
+    }
+}

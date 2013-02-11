@@ -1,6 +1,6 @@
 Twitter Bootstrap integration to Symfony2 projects
 ==================================
-Version 2.2.2
+Version 2.3.0
 
 
 Symfony2 bundled & in composer packaged
